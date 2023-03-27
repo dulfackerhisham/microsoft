@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+/* navbar-starts */
+header{
+    width: 100%;
+    background-color: white;
+}
+.nav-main{
+    width: 90%;
+    margin: 0 auto ;
+}
+.small-text{
+    font-size: 14px;
+    margin-top: 10px;
+}
+.small-text:hover{
+    border-bottom: 1px black solid;
+
+}
+/* navbar-endss */
+
+/* main body starts */
+main{
+    margin: 0 40px;
+}
+.carousel-inner img{
+    /* width: 100%; */
+    height: 480px;
+}
+.carousel-1{
+    text-align: left;
+    top: 15%;
+    left: 12%;
+}
+.carousel-1 span{
+    margin-left: 20px;
+    font-weight: 600;
+}
+.carousel-2{
+    text-align: left;
+    left: 58%;
+    top: 15%;
+}
+.new-btn{
+    background-color: #ffb900;
+    padding: 5px 10px;
+    border: none;
+}
+.new-btn a{
+    text-decoration: none;
+    color: black;
+    font-weight: 60;
+}
+.carousel-caption .btn-blue{
+    background-color: #0067b8;
+    color: white;
+    padding: 10px;
+    border: none;
+    font-weight: 600;
+}
+.row{
+    margin: 0 !important;
+}
+/* sectioin-2 starts */
+.sec-2{
+    margin: 55px 0;
+}
+.card{
+    border: none !important;
+}
+.card-body{
+    padding: 15px 0 !important;
+}
+.card-body a{
+    text-decoration: none;
+}
+/* sectioin-2 ends */
+
+/* section-3 starts */
+.sec-3{
+    width: 100%;
+    height: 550px;
+    background-image: url(images/Highlight-Xbox-Series-S-Light-Background_VP5-1596x600.avif);
+    background-size: 100% 100%;
+    margin: 20px 0 40px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 10px;
+    color: rgb(184, 188, 220);
+}
+.sec-3 button{
+    padding: 10px;
+    background-color: #0067b8;
+    color: white;
+    border: none;
+    border-radius: 2px;
+}
+
+/* section-3 ends */
+
+
+.sec-5 .row{
+    margin: 30px 0 !important;
+}
+.sec-5 i{
+    color: black;
+    font-size: 20px;
+}
+
+
+/* main body ends */
+
+/* footer starts */
+footer{
+/* footer starts */
+    background-color: #f2f2f2;
+    padding: 40px 0;
+}
+footer li{
+    list-style: none;
+}
+footer a{
+    text-decoration: none;
+    color: #818181;
+    font-size: 11px;
+}
+footer p{
+    color: #616161;
+    font-size: 15px;
+}
+.foot-end a{
+    margin-left: 10px;
+}
+/* footer ends */
